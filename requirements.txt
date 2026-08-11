@@ -1,12 +1,12 @@
 # --- Lõi AI ---
-paddlepaddle==2.6.0      # Framework cơ sở cho PaddleOCR (Bản CPU)
-paddleocr>=2.7.0.3       # Dò tìm khung chữ và đọc số
-vietocr==0.3.12          # Đọc chữ tiếng Việt (Transformer)
+paddlepaddle==2.6.2    # Framework cơ sở cho PaddleOCR (Bản CPU)
+paddleocr>=2.8.1       # Dò tìm khung chữ và đọc số
+vietocr==0.3.13        # Đọc chữ tiếng Việt (Transformer)
 
 # --- Xử lý Ảnh & Dữ liệu ---
 opencv-python>=4.6.0     # Tiền xử lý ảnh (OpenCV)
-numpy>=1.21.6            # Xử lý ma trận ảnh
-Pillow>=9.0.0            # Định dạng ảnh cho VietOCR
+numpy>=1.26.4            # Xử lý ma trận ảnh
+Pillow>=10.2.0           # Định dạng ảnh cho VietOCR
 
 # --- Các thư viện phụ thuộc thường bị thiếu ---
 shapely
